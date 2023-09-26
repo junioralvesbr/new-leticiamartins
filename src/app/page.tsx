@@ -1,5 +1,11 @@
+import Header from "./components/Header";
+
 export default function Home() {
   return (
-    <h1>Site da Leticia Martins</h1>
+    <>
+      <header className="pt-5 md:pt-10">
+        <Header />
+      </header>
+    </>
   )
 }
