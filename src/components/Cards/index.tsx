@@ -2,7 +2,7 @@ import { CheckCircle2, MapPin, Users2 } from "lucide-react";
 
 export default function Cards() {
   return (
-    <section className="grid gap-4 pt-8 sm:grid-cols-3 sm:grid-rows-1">
+    <section className="grid gap-4 pt-8 sm:px-10 xl:px-44 sm:grid-cols-3 sm:grid-rows-1">
 
       <div className="bg-stone-100 p-6 rounded-lg">
         <CheckCircle2 size={36} />

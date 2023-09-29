@@ -1,14 +1,16 @@
 import Cards from "@/components/Cards";
-import Header from "../components/Header";
+import Header from "@/components/Header";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
-    <div className="sm:px-10 xl:px-32">
-      <header className="pt-5 md:pt-10">
+    <div>
+      <header>
         <Header />
       </header>
       <main>
         <Cards />
+        <Services />
       </main>
     </div>
   )

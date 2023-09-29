@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <section className=" flex flex-col gap-6 p-4 md:flex-row md:justify-center md:items-center">
+    <section className="flex flex-col gap-6 p-4 pt-5 md:pt-10 md:flex-row md:justify-center md:items-center">
       <div className="flex flex-col gap-5">
         <p className="text-stone-500 uppercase">
           Personal Organizer
