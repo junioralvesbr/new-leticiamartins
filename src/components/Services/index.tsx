@@ -24,7 +24,7 @@ const data = [
 
 export default function Services() {
   return (
-    <section className="px-3 mt-20">
+    <section className="px-3 mt-32">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold">Nossos Seviços</h2>
 

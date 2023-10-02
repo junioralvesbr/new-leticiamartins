@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Cards from "@/components/Cards";
 import Services from "@/components/Services";
 import Aboult from "@/components/About";
+import Video from "@/components/Video";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
         <Cards />
         <Services />
         <Aboult />
+        <Video />
+        <div className="h-screen"></div>
       </main>
     </div>
   )

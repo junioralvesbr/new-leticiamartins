@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Aboult() {
   return (
-    <section className="mt-12 px-3 md:mt-20">
+    <section className="mt-12 px-3 md:mt-32">
       <article
         className="flex flex-col items-center gap-6 max-w-6xl mx-auto md:flex-row md:justify-between md:gap-20">
         <Image
