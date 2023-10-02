@@ -1,6 +1,4 @@
-import Cards from "@/components/Cards";
 import Header from "@/components/Header";
-import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -9,8 +7,6 @@ export default function Home() {
         <Header />
       </header>
       <main>
-        <Cards />
-        <Services />
       </main>
     </div>
   )
