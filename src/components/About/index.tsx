@@ -25,11 +25,11 @@ export default function Aboult() {
       </article>
 
       <div className="mt-10 max-w-6xl mx-auto">
-        <p className="text-2xl font-semibold md:text-center">
+        <p className="text-2xl text-stone-800">
           Um ambiente organizado traz diversos benefícios, como redução do estresse, aumento da produtividade, economia de tempo na limpeza e manutenção, melhoria na qualidade de vida e sensação de tranquilidade e bem-estar.
         </p>
 
-        <p className="text-xl text-stone-600 mt-6 md:text-center">
+        <p className="text-xl text-stone-500 mt-6">
           Além disso, uma organização eficiente permite melhor aproveitamento do espaço disponível, facilitando a circulação e tornando os ambientes mais funcionais e agradáveis.
         </p>
       </div>
