@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Cards from "@/components/Cards";
 import Services from "@/components/Services";
+import Aboult from "@/components/About";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <main>
         <Cards />
         <Services />
+        <Aboult />
       </main>
     </div>
   )
