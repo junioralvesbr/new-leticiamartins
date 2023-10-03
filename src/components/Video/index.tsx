@@ -5,12 +5,12 @@ export default function Video() {
     <section className="mt-32">
       <div className="h-[554px] relative">
         <Image
-          className="z-0"
+          className="z-0 object-cover"
           src="/images/casa.jpg"
           alt="Imagem de sala organizada"
           fill
           sizes="100%"
-          objectFit="cover"
+          loading="lazy"
         />
 
         <div className="z-10 absolute inset-0 bg-fundo flex flex-col justify-center items-center gap-12">

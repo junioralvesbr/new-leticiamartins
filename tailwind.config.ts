@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundColor: {
-        fundo: "rgba(0, 0, 0, 0.6)",
+        fundo: "rgba(41, 46, 42, 0.51)",
       }
     },
   },
