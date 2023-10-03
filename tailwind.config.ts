@@ -10,6 +10,9 @@ const config: Config = {
     extend: {
       backgroundColor: {
         fundo: "rgba(41, 46, 42, 0.51)",
+      },
+      fontFamily: {
+        autograph: ['Autography', 'sans-serif']
       }
     },
   },

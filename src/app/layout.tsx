@@ -1,9 +1,20 @@
 import '../styles/global.css'
 import type { Metadata } from 'next'
 import { Jost } from 'next/font/google'
+import localFont from 'next/font/local'
 import NavBar from '../components/NavBar'
+import Footer from '@/components/Footer'
 
-const jost = Jost({ subsets: ['latin'] })
+const jost = Jost({
+  subsets: ['latin'],
+  variable: '--font-jost'
+})
+
+const autograph = localFont({
+  src: '../assets/font/Autography.otf',
+  variable: '--font-autograph',
+})
+
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -20,6 +31,7 @@ export default function RootLayout({
       <body className={jost.className}>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   )

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "Autography";
+    src: url("../assets/font/Autography.otf");
+    font-display: swap;
+  }
+}
+
 html,
 body {
   box-sizing: border-box;
@@ -13,4 +21,5 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
 }

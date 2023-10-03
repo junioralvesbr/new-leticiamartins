@@ -17,7 +17,6 @@ export default function Home() {
         <Aboult />
         <Video />
         <Course />
-        <div className="h-screen"></div>
       </main>
     </div>
   )

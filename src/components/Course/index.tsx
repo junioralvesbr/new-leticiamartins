@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Course() {
   return (
-    <section className="mt-20">
+    <section className="py-20">
       <div className="flex flex-col gap-8 px-6 max-w-6xl mx-auto lg:flex-row lg:items-center">
         <picture className="">
           <Image
