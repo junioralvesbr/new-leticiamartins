@@ -7,7 +7,7 @@ import Course from "@/components/Course";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <header>
         <Header />
       </header>
@@ -18,6 +18,6 @@ export default function Home() {
         <Video />
         <Course />
       </main>
-    </div>
+    </>
   )
 }
