@@ -30,7 +30,6 @@ export default function Header() {
           width={800}
           height={600}
           className="rounded-lg"
-          loading="lazy"
           priority={true}
         />
       </picture>
