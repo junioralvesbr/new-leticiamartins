@@ -39,6 +39,7 @@ export default function Services() {
                 alt={item.alt}
                 width={360}
                 height={360}
+                loading="lazy"
               />
 
               <h3 className="text-2xl font-bold mt-3">

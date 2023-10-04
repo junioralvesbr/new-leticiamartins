@@ -11,6 +11,7 @@ export default function Course() {
             alt="Foto do curso Organize sua Casa"
             width={1024}
             height={1024}
+            loading="lazy"
           />
         </picture>
 

@@ -11,6 +11,7 @@ export default function Aboult() {
           alt="Foto de perfil de Laticia Martins"
           width={320}
           height={320}
+          loading="lazy"
         />
 
         <div>
