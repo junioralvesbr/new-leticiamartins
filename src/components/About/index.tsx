@@ -20,7 +20,7 @@ export default function Aboult() {
           </p>
 
           <h2 className="text-3xl text-center leading-[52px] mt-10 md:text-left">
-            "Ela traz facilidade e simplicidade para o seu dia a dia, tornando tudo mais prático e eficiente"
+            Ela traz facilidade e simplicidade para o seu dia a dia, tornando tudo mais prático e eficiente
           </h2>
         </div>
       </article>
