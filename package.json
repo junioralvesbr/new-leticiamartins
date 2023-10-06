@@ -1,5 +1,7 @@
 {
-  "name": "new-leticiamartins",
+  "name": "www-leticiamartins",
+  "url": "https://github.com/junioralvesbr/www-leticiamartins",
+  "homepage": "https://www.leticiamartins.com.br",
   "version": "0.1.0",
   "private": true,
   "scripts": {
