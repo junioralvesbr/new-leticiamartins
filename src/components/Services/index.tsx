@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const data = [
   {
@@ -56,9 +57,11 @@ export default function Services() {
 
         <div className="flex justify-center mt-12">
           <a
-            href="#services"
-            className="bg-yellow-100 inline-block px-6 py-3 rounded-lg max-w-max transition-all hover:bg-yellow-200">
-            Entre em contato comigo ➜
+            href="#footer"
+            className="bg-yellow-100 flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-yellow-200"
+          >
+            <span>Entre em contato comigo</span>
+            <FaArrowRightLong />
           </a>
         </div>
       </div>

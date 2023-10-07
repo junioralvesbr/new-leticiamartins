@@ -2,7 +2,7 @@ import { FaSquareFacebook, FaSquareInstagram } from "react-icons/fa6"
 
 export default function Footer() {
   return (
-    <footer className="bg-stone-900 py-20">
+    <footer className="bg-stone-900 py-20" id="footer">
       <div className="flex flex-col gap-12 items-center max-w-6xl mx-auto md:flex-row md:justify-between">
 
         <div>
