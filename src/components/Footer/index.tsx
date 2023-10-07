@@ -26,6 +26,7 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/leticiamartinsorganizer/"
                 className="text-white hover:brightness-75 transition-all"
+                target='_blank'
               >
                 <FaSquareFacebook size="30px" />
               </a>
@@ -35,6 +36,7 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/leticiamartins.organizer/"
                 className="text-white hover:brightness-75 transition-all"
+                target='_blank'
               >
                 <FaSquareInstagram size="30px" />
               </a>
