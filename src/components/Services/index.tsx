@@ -23,7 +23,7 @@ const data = [
 
 export default function Services() {
   return (
-    <section className="px-3 mt-32">
+    <section className="px-3 mt-32" id="services">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold">Nossos Seviços</h2>
 
