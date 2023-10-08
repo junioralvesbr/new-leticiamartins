@@ -25,7 +25,7 @@ const data = [
 
 export default function Services() {
   return (
-    <section className="px-3 mt-32" id="services">
+    <section className="px-8 mt-32" id="services">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold">Nossos Seviços</h2>
 
@@ -48,7 +48,7 @@ export default function Services() {
                 {item.title}
               </h3>
 
-              <p className="text-stone-600 pr-28 mt-8 leading-10 text-lg">
+              <p className="text-stone-600 mt-8 text-lg md:pr-28 md:leading-10">
                 {item.text}
               </p>
 
