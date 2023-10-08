@@ -14,7 +14,7 @@ export default function Header() {
         </p>
 
         <h1 className="text-stone-500 text-lg">
-          Organize a sua casa com a
+          Organize a sua casa com a <br />
           <em className="uppercase font-bold"> Leticia Martins</em>
         </h1>
 

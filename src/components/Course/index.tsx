@@ -18,11 +18,11 @@ export default function Course() {
 
         <article className="flex flex-col gap-6">
           <p className="text-stone-500">
-            Curso organize sua casa
+            Curso Organize sua casa
           </p>
 
           <h2 className="text-4xl">
-            Conheça o curso mais completo de organização de ambientes para sua casa
+            Conheça o curso mais completo de organização de ambientes para sua casa.
           </h2>
 
           <p className="text-stone-500 text-lg">
