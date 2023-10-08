@@ -20,7 +20,7 @@ export default function Header() {
 
         <a
           href="#services"
-          className="bg-rose-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-700"
+          className="bg-primary text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-400"
         >
           <span>Conheça nossos serviços</span>
           <FaArrowRightLong />

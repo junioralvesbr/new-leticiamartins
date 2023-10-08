@@ -59,7 +59,7 @@ export default function Services() {
         <div className="flex justify-center mt-12">
           <a
             href={whatsAppLink}
-            className="bg-rose-600 text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-700"
+            className="bg-primary text-white flex items-center gap-2 px-6 py-3 rounded-lg max-w-max transition-all hover:bg-rose-400"
           >
             <span>Entre em contato comigo</span>
             <FaArrowRightLong />
