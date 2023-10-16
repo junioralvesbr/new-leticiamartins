@@ -22,7 +22,7 @@ export function WhatssAppIcon() {
   )
 }
 
-export function WhatsAppButton({ children }) {
+export function WhatsAppButton({ children }: any) {
   return (
     <div className='flex justify-center mb-24'>
       <a

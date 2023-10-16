@@ -1,19 +1,9 @@
 import { WhatsAppButton } from '../Whatsapp'
 
-interface SectionProps {
-  data: {
-    image: string,
-    alt: string,
-    title: string,
-    text: string,
-    reverse: boolean
-  }
-}
-
-export default function Section({ data }: SectionProps) {
+export default function Section({ data }: any) {
   return (
     <section>
-      {data && data.map((item, index) => (
+      {data && data.map((item: any, index: any) => (
         <article
           className={`flex flex-col justify-center items-center gap-5 mb-24 md:gap-8
             ${item.reverse ? "md:flex-row-reverse" : "md:flex-row"}
