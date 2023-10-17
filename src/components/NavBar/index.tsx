@@ -6,10 +6,12 @@ import { useRef } from 'react'
 
 
 export default function NavBar() {
-  const detailsRef = useRef(false)
+  const detailsRef = useRef<HTMLDetailsElement>(null)
 
   function handleClick() {
-    detailsRef.current.open = false
+    if (detailsRef.current !== null) {
+      detailsRef.current.open = false
+    }
   }
 
   return (
