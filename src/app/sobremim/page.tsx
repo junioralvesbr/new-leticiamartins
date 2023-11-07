@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 import LinkBuntton from "@/components/LinkButton";
 import { whatsAppLink } from "@/components/Whatsapp";
-import Image from "next/image";
+import SwiperCaroucel from "@/components/SwiperCaroucel/page";
 
 export default function AboutMe() {
   return (
@@ -36,7 +38,7 @@ export default function AboutMe() {
 
           <article className="max-w-md flex flex-col items-center lg:items-start">
 
-            <h2 className="uppercase font-bold text-fifth-color text-3xl px-2">
+            <h2 className="uppercase font-bold text-stone-500 text-3xl px-2">
               Apaixonada por organização
             </h2>
 
@@ -77,8 +79,15 @@ export default function AboutMe() {
             <p className="mt-5 px-4">
               Busquei me profissionalizar em <em>personal organizer</em> e atuo desde 2017 em <strong>Maringá - PR</strong> oferecendo o melhor serviço de organização de ambientes, sempre com o apoio e incentivo de minha familia.
             </p>
-
           </article>
+        </section>
+
+        <section id="midia" className="bg-third-color py-14">
+          <h2 className="text-stone-500 text-2xl uppercase font-bold text-center py-3">
+            Presença em mídia, TV e eventos
+          </h2>
+
+          <SwiperCaroucel />
         </section>
       </main>
 
