@@ -1,8 +1,14 @@
+import { Metadata } from "next";
 import LinkBuntton from "@/components/LinkButton";
 import AboultMe from "@/components/AboutMe";
 import { whatsAppLink } from "@/components/Whatsapp";
 import SwiperCaroucel from "@/components/SwiperCaroucel/page";
 import Video from "@/components/Video";
+
+
+export const metadata: Metadata = {
+  title: 'Sobre Mim - Leticia Martins Personal Organizer',
+}
 
 export default function AboutMe() {
   return (
