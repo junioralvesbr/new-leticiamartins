@@ -25,7 +25,7 @@ export default function SwiperCaroucel() {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination, Autoplay]}
-        autoplay={{ delay: 10000 }}
+        autoplay={{ delay: 6000 }}
       >
         <SwiperSlide>
           <img src="/images/midia/midia1.jpg" alt="Fotos de eventos" />
