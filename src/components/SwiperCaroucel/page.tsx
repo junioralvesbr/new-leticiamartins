@@ -1,7 +1,7 @@
 'use client'
 
-import { Swiper, SwiperSlide } from "swiper/react"
-import { Autoplay, EffectCoverflow, Pagination, Navigation } from "swiper/modules"
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules'
 
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
@@ -12,10 +12,10 @@ export default function SwiperCaroucel() {
   return (
     <div>
       <Swiper
-        effect={"coverflow"}
+        effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={"auto"}
+        slidesPerView={'auto'}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -37,25 +37,53 @@ export default function SwiperCaroucel() {
           <img src="/images/midia/midia3.jpg" alt="Fotos de eventos" />
         </SwiperSlide>
         <SwiperSlide className="max-w-md max-h-[400px]">
-          <img src="/images/midia/midia4.jpg" alt="Fotos de eventos" loading="lazy" />
+          <img
+            src="/images/midia/midia4.jpg"
+            alt="Fotos de eventos"
+            loading="lazy"
+          />
         </SwiperSlide>
         <SwiperSlide className="max-w-md max-h-[400px]">
-          <img src="/images/midia/midia5.jpg" alt="Fotos de eventos" loading="lazy" />
+          <img
+            src="/images/midia/midia5.jpg"
+            alt="Fotos de eventos"
+            loading="lazy"
+          />
         </SwiperSlide>
         <SwiperSlide className="max-w-md max-h-[400px]">
-          <img src="/images/midia/midia6.jpg" alt="Fotos de eventos" loading="lazy" />
+          <img
+            src="/images/midia/midia6.jpg"
+            alt="Fotos de eventos"
+            loading="lazy"
+          />
         </SwiperSlide>
         <SwiperSlide className="max-w-md max-h-[400px]">
-          <img src="/images/midia/midia7.jpg" alt="Fotos de eventos" loading="lazy" />
+          <img
+            src="/images/midia/midia7.jpg"
+            alt="Fotos de eventos"
+            loading="lazy"
+          />
         </SwiperSlide>
         <SwiperSlide className="max-w-md max-h-[400px]">
-          <img src="/images/midia/midia8.jpg" alt="Fotos de eventos" loading="lazy" />
+          <img
+            src="/images/midia/midia8.jpg"
+            alt="Fotos de eventos"
+            loading="lazy"
+          />
         </SwiperSlide>
         <SwiperSlide className="max-w-md max-h-[400px]">
-          <img src="/images/midia/midia9.jpg" alt="Fotos de eventos" loading="lazy" />
+          <img
+            src="/images/midia/midia9.jpg"
+            alt="Fotos de eventos"
+            loading="lazy"
+          />
         </SwiperSlide>
         <SwiperSlide className="max-w-md max-h-[400px]">
-          <img src="/images/midia/midia10.jpg" alt="Fotos de eventos" loading="lazy" />
+          <img
+            src="/images/midia/midia10.jpg"
+            alt="Fotos de eventos"
+            loading="lazy"
+          />
         </SwiperSlide>
       </Swiper>
     </div>

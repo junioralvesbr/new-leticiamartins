@@ -1,5 +1,5 @@
-import LinkBuntton from "@/components/LinkButton";
-import Image from "next/image";
+import LinkBuntton from '@/components/LinkButton'
+import Image from 'next/image'
 
 export default function Course() {
   return (
@@ -17,32 +17,36 @@ export default function Course() {
         </picture>
 
         <article className="flex flex-col gap-6 px-6">
-          <p className="text-stone-500">
-            Curso Organize sua casa
-          </p>
+          <p className="text-stone-500">Curso Organize sua casa</p>
 
           <h2 className="text-4xl">
-            Conheça o curso mais completo de organização de ambientes para sua casa.
+            Conheça o curso mais completo de organização de ambientes para sua
+            casa.
           </h2>
 
           <p className="text-stone-500 text-lg">
-            Aprenda as melhores práticas de organização e técnicas para transformar sua casa em um espaço harmonioso.
+            Aprenda as melhores práticas de organização e técnicas para
+            transformar sua casa em um espaço harmonioso.
           </p>
 
           <p className="text-stone-500 text-lg">
-            Desde a organização de ambientes específicos até estratégias para manter a ordem no dia a dia.
+            Desde a organização de ambientes específicos até estratégias para
+            manter a ordem no dia a dia.
           </p>
 
           <p className="text-stone-500 text-lg">
-            Você terá todas as ferramentas para conquistar uma casa organizada de forma prática, leve e eficiente.
+            Você terá todas as ferramentas para conquistar uma casa organizada
+            de forma prática, leve e eficiente.
           </p>
 
-          <LinkBuntton href="https://curso.leticiamartins.com.br/" target="_blank">
+          <LinkBuntton
+            href="https://curso.leticiamartins.com.br/"
+            target="_blank"
+          >
             Tenha mais informações sobre o curso
           </LinkBuntton>
-
         </article>
       </div>
     </section>
   )
-} 
+}
