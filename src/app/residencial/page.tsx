@@ -15,7 +15,7 @@ const data = [
   {
     image: '/images/closet.jpg',
     title: 'Quartos e Closets',
-    text: 'Essas áreas começam com pouco volume, mas rapidamente se tornam o lugar “fácil” para colocar as coisas quando você não sabe mais o que fazer com elas. Vamos organizar tudo com toda praticidade e facilidade para seu dia a dia.',
+    text: 'Um quarto organizado cria um ambiente mais tranquilo para relaxar e dormir, reduz o estresse causado pela desordem, facilita a limpeza, além de permitir que você encontre facilmente o que precisa, economizando tempo no dia dia.',
     reverse: false,
   },
   {
@@ -27,13 +27,13 @@ const data = [
   {
     image: '/images/cozinha.jpg',
     title: 'Cozinhas e despensas',
-    text: 'Provavelmente um dos cômodos mais usados em sua casa, a cozinha se torna um local de encontro para sua família e para o preparo das refeições. Colocar o foco nessas áreas pode não apenas ajudar a restaurar a ordem e reduzir o estresse, mas também pode ajudá-lo a economizar dinheiro.',
+    text: 'Provavelmente um dos cômodos mais usados em sua casa, a cozinha se torna um local de encontro para sua família e para o preparo das refeições. Ter tudo organizado proporciona momentos incriveis ao redor da mesa.',
     reverse: false,
   },
   {
     image: '/images/banheiro.jpg',
     title: 'Banheiros e Lavanderias',
-    text: ' Estes ambientes pequenos podem abrir a porta para um mundo de bagunça e desordem, por isso ao organizá-los você terá toda beleza e funcionalidadede para você, facilitando a limpeza e manutenção do dia a dia da casa.',
+    text: 'Organizar esses ambientes facilita a rotina e manutenção da casa, economiza tempo, cria um ambiente agradável, contribui para sensação de ordem e limpeza, promovendo o bem estar e redução do estresse.',
     reverse: true,
   },
 ]
