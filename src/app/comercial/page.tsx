@@ -1,6 +1,7 @@
 import LinkBuntton from '@/components/LinkButton'
 import PagesWorks, { DataType } from '@/components/PagesWorks'
 import { whatsAppLink } from '@/components/Whatsapp'
+import Companies from '@/components/companies'
 import { Metadata } from 'next'
 import Image from 'next/image'
 
@@ -75,6 +76,10 @@ export default function Home() {
 
       <main style={{ marginTop: '50px' }}>
         <PagesWorks data={data} />
+
+        <div className="py-6">
+          <Companies />
+        </div>
       </main>
     </>
   )

@@ -1,5 +1,8 @@
 import { FaCircleCheck, FaMapLocationDot, FaUserGroup } from 'react-icons/fa6'
 
+const ageStart = new Date('2017-03-08').getFullYear()
+const ageCurrent = new Date().getFullYear()
+
 export default function Cards() {
   return (
     <section className="pt-8 md:pt-12">
@@ -7,7 +10,7 @@ export default function Cards() {
         <div className="bg-zinc-100 p-8 rounded-lg">
           <FaCircleCheck size="30px" />
           <p className="text-stone-700 text-lg mt-6">
-            Mais de 6 anos de experiência
+            Mais de {ageCurrent - ageStart} anos de experiência
           </p>
         </div>
         <div className="bg-zinc-100 p-8 rounded-lg">

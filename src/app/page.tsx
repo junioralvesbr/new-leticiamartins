@@ -5,6 +5,7 @@ import ImageSection from '@/components/ImageSection'
 import DescriptionSection from '@/components/DescriptionSection'
 import OurServices from '@/components/OurServices'
 import MainHeader from '@/components/MainHeader'
+import Companies from '@/components/companies'
 
 export const metadata: Metadata = {
   title: 'Leticia Martins Personal Organizer',
@@ -22,6 +23,7 @@ export default function Home() {
       <main>
         <Cards />
         <OurServices />
+        <Companies />
         <DescriptionSection />
         <ImageSection />
         <Course />
