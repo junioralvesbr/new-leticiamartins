@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const data = [
   {
-    image: '/images/cozinha.jpeg',
+    image: '/images/cozinha-residencial.jpeg',
     alt: 'Foto de cozinha organizada',
     title: 'Organização Residencial',
     text: 'Somos apaixonados por organização e atuamos em todos os ambientes da sua casa. Estamos aqui para te ouvir e elaborar um plano personalizado e perfeito para seu conforto e de sua familia.',
@@ -17,7 +17,7 @@ const data = [
     link: '/posmudanca',
   },
   {
-    image: '/images/loja.jpeg',
+    image: '/images/lojaservico.jpg',
     alt: 'Foto de loja organizada',
     title: 'Organização Empresarial',
     text: 'A organização eficiente é a chave para o sucesso de qualquer empresa. Dessa forma, uma empresa bem organizada tende a ser mais produtiva, competitiva e capaz de se adaptar às mudanças do mercado.',
