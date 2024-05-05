@@ -2,11 +2,23 @@ import Image from 'next/image'
 import { whatsAppLink } from '../Whatsapp'
 import LinkBuntton from '../LinkButton'
 
-export default function PagesWorks({ data }: any) {
+export type DataType = {
+  image: string
+  alt: string
+  title: string
+  text: string
+  reverse: boolean
+}
+
+type PagesWorksProps = {
+  data: DataType[]
+}
+
+export default function PagesWorks({ data }: PagesWorksProps) {
   return (
     <section className="py-12">
       {data &&
-        data.map((item: any, index: any) => (
+        data.map((item, index) => (
           <article
             className={`flex flex-col justify-center items-center gap-5 mb-24 md:gap-8
             ${item.reverse ? 'md:flex-row-reverse' : 'md:flex-row'}

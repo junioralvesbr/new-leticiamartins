@@ -1,8 +1,8 @@
-import Image from "next/image"
+import Image from 'next/image'
 
 type HeaderProps = {
   banner: {
-    image: string,
+    image: string
     alt: string
   }
   children: string
@@ -20,7 +20,6 @@ export default function PagesHeader({ banner, children }: HeaderProps) {
           quality={100}
           priority
         />
-
       </div>
       <h1 className="text-center uppercase text-xl tracking-widest text-shadow font-bold py-10 md:py-20 md:text-4xl">
         {children}

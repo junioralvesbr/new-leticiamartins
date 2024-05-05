@@ -8,8 +8,7 @@ export default function Video() {
         height="100%"
         allowFullScreen
         allow="autoplay"
-      >
-      </iframe>
+      ></iframe>
     </div>
   )
 }

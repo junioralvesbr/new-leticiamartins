@@ -1,15 +1,18 @@
-import { ReactNode } from "react";
-import Link from "next/link";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { ReactNode } from 'react'
+import Link from 'next/link'
+import { FaArrowRightLong } from 'react-icons/fa6'
 
 type LinkButtonProps = {
-  href: string,
-  target?: string,
+  href: string
+  target?: string
   children: ReactNode
 }
 
-
-export default function LinkBuntton({ href, target = "_self", children }: LinkButtonProps) {
+export default function LinkBuntton({
+  href,
+  target = '_self',
+  children,
+}: LinkButtonProps) {
   return (
     <Link
       href={href}
