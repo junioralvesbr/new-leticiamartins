@@ -59,7 +59,7 @@ export default function Home() {
 
           <picture>
             <Image
-              src="/images/sala.webp"
+              src="/images/mudanca-hero.jpg"
               alt="Imagem de sala organizada da Leticia Martins"
               width={800}
               height={600}
