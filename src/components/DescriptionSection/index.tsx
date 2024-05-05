@@ -4,14 +4,15 @@ import { whatsAppLink } from '@/components/Whatsapp'
 
 export default function DescriptionSection() {
   return (
-    <section className="px-8 py-12 md:py-32">
+    <section className="px-8 py-12 bg-zinc-200 md:py-32">
       <article className="flex flex-col items-center gap-6 max-w-6xl mx-auto md:flex-row md:justify-between md:gap-20">
         <Image
-          src="/images/about.png"
+          src="/images/capa-ebook.jpg"
           alt="Foto de perfil de Laticia Martins"
           width={350}
           height={350}
           quality={80}
+          className="rounded-full"
         />
 
         <div>
