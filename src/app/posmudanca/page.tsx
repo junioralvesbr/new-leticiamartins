@@ -1,5 +1,5 @@
 import LinkBuntton from '@/components/LinkButton'
-import PagesWorks from '@/components/PagesWorks'
+import PagesWorks, { DataType } from '@/components/PagesWorks'
 import { whatsAppLink } from '@/components/Whatsapp'
 import { Metadata } from 'next'
 import Image from 'next/image'
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
 }
 
-const data = [
+const data: DataType[] = [
   {
     image: '/images/equipe-mudanca.png',
     alt: 'Foto de equipe',

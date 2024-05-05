@@ -1,5 +1,5 @@
 import LinkBuntton from '@/components/LinkButton'
-import PagesWorks from '@/components/PagesWorks'
+import PagesWorks, { DataType } from '@/components/PagesWorks'
 import { whatsAppLink } from '@/components/Whatsapp'
 import { Metadata } from 'next'
 import Image from 'next/image'
@@ -11,27 +11,31 @@ export const metadata: Metadata = {
   },
 }
 
-const data = [
+const data: DataType[] = [
   {
     image: '/images/closet.jpg',
+    alt: 'Foto do closet',
     title: 'Quartos e Closets',
     text: 'Um quarto organizado cria um ambiente mais tranquilo para relaxar e dormir, reduz o estresse causado pela desordem, facilita a limpeza, além de permitir que você encontre facilmente o que precisa, economizando tempo no dia dia.',
     reverse: false,
   },
   {
     image: '/images/infantil.webp',
+    alt: 'foto do quarto infantil',
     title: 'Quartos Infantis e Brinquedoteca',
     text: 'As crianças perdem suas roupas e brinquedos em um piscar de olhos, então não é de admirar que seus quartos e salas de jogos fiquem bagunçados. Podemos começar com a organização e restaurar a ordem em seus quartos para que eles possam encontrar o que precisam.',
     reverse: true,
   },
   {
     image: '/images/cozinha.jpg',
+    alt: 'foto da cozinha',
     title: 'Cozinhas e despensas',
     text: 'Provavelmente um dos cômodos mais usados em sua casa, a cozinha se torna um local de encontro para sua família e para o preparo das refeições. Ter tudo organizado proporciona momentos incriveis ao redor da mesa.',
     reverse: false,
   },
   {
     image: '/images/banheiro.jpg',
+    alt: 'foto do banheiro',
     title: 'Banheiros e Lavanderias',
     text: 'Organizar esses ambientes facilita a rotina e manutenção da casa, economiza tempo, cria um ambiente agradável, contribui para sensação de ordem e limpeza, promovendo o bem estar e redução do estresse.',
     reverse: true,
